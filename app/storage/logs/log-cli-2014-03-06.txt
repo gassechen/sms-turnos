@@ -1,0 +1,132 @@
+[2014-03-06 20:16:37] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:14
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:18:41] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:14
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:19:34] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:14
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:20:28] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:14
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:21:18] log.ERROR: 500 - Command "command:create_equips" is not defined. @ /
+exception 'InvalidArgumentException' with message 'Command "command:create_equips" is not defined.' in /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('command:create_...')
+#1 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-03-06 20:27:08] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:29:12] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:31:43] log.ERROR: 500 - Command "command:maintenance" is not defined. @ /
+exception 'InvalidArgumentException' with message 'Command "command:maintenance" is not defined.' in /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('command:mainten...')
+#1 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-03-06 20:32:22] log.ERROR: 500 - Command "command:maintenance" is not defined. @ /
+exception 'InvalidArgumentException' with message 'Command "command:maintenance" is not defined.' in /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('command:mainten...')
+#1 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-03-06 20:33:30] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:34:01] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:34:33] log.ERROR: 500 - Class 'create_equips' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'create_equips' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:5
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-06 20:35:34] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:35:39] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:35:59] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:36:18] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:41:40] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:42:56] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:44:40] log.ERROR: 500 - Use of undefined constant createquips - assumed 'createquips' @ /
+exception 'ErrorException' with message 'Use of undefined constant createquips - assumed 'createquips'' in /var/www/htdocs/cmi_tel/app/start/artisan.php:6
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/start/artisan.php(6): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/var/www/htdocs...', 6, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/start.php(57): require('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Application.php(30): require('/var/www/htdocs...')
+#3 /var/www/htdocs/cmi_tel/artisan(46): Illuminate\Console\Application::start(Object(Illuminate\Foundation\Application))
+#4 {main} [] []
+[2014-03-06 20:55:23] log.ERROR: 500 - Not enough arguments. @ /
+exception 'RuntimeException' with message 'Not enough arguments.' in /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Input/Input.php:76
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(239): Symfony\Component\Console\Input\Input->validate()
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(UserGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#6 {main} [] []

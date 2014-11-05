@@ -1,0 +1,119 @@
+[2014-09-15 20:40:04] log.ERROR: 500 - No se pudo conectar al servidor. @ /messages
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(220): SMSC->exec('enviar', '&num=2994060571...')
+#1 /var/www/htdocs/turnos/app/controllers/MessagesControler.php(139): SMSC->enviar()
+#2 [internal function]: MessagesController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-09-15 20:41:07] log.ERROR: 500 - No se pudo conectar al servidor. @ /messages
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(220): SMSC->exec('enviar', '&num=2994060571...')
+#1 /var/www/htdocs/turnos/app/controllers/MessagesControler.php(139): SMSC->enviar()
+#2 [internal function]: MessagesController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-09-15 20:54:09] log.ERROR: 500 - No se pudo conectar al servidor. @ /messages
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(220): SMSC->exec('enviar', '&num=2994060571...')
+#1 /var/www/htdocs/turnos/app/controllers/MessagesControler.php(139): SMSC->enviar()
+#2 [internal function]: MessagesController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-09-15 21:00:22] log.ERROR: 500 - No se pudo conectar al servidor. @ /turns
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(220): SMSC->exec('enviar', '&num=2994060571...')
+#1 /var/www/htdocs/turnos/app/controllers/TurnsController.php(126): SMSC->enviar()
+#2 [internal function]: TurnsController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-09-15 21:30:49] log.ERROR: 500 - No se pudo conectar al servidor. @ /turns
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(220): SMSC->exec('enviar', '&num=2994060571...')
+#1 /var/www/htdocs/turnos/app/controllers/TurnsController.php(127): SMSC->enviar()
+#2 [internal function]: TurnsController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-09-15 21:36:54] log.ERROR: 500 - No se pudo conectar al servidor. @ /turns
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(107): SMSC->exec('estado')
+#1 /var/www/htdocs/turnos/app/controllers/TurnsController.php(118): SMSC->getEstado()
+#2 [internal function]: TurnsController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-09-15 21:40:15] log.ERROR: 500 - No se pudo conectar al servidor. @ /turns
+exception 'Exception' with message 'No se pudo conectar al servidor.' in /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php:87
+Stack trace:
+#0 /var/www/htdocs/turnos/app/library/Sms/Helpers/Sms.php(107): SMSC->exec('estado')
+#1 /var/www/htdocs/turnos/app/controllers/TurnsController.php(118): SMSC->getEstado()
+#2 [internal function]: TurnsController->store()
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []

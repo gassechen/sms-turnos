@@ -1,0 +1,1150 @@
+[2014-02-21 16:05:31] log.ERROR: 404 - Exception @ /assets/compiled/public/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:32] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/transition-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:32] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/carousel-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:33] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tooltip-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:33] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/popover-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:33] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/affix-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:34] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/button-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:34] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/scrollspy-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:34] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/collapse-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:35] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/modal-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:35] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tooltip-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:36] log.ERROR: 404 - Exception @ /assets/ico/favicon.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:36] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/dropdown-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:36] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/transition-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:37] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tab-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:37] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/alert-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:37] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/popover-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:38] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/button-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:38] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/scrollspy-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:39] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/collapse-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 16:05:40] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/dropdown-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 17:06:48] log.ERROR: 500 - syntax error, unexpected T_USE, expecting T_FUNCTION @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected T_USE, expecting T_FUNCTION' in /var/www/htdocs/cmi_tel/app/models/User.php:11
+Stack trace:
+#0 [internal function]: ()
+#1 {main} [] []
+[2014-02-21 17:09:58] log.ERROR: 500 - syntax error, unexpected T_USE, expecting T_FUNCTION @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected T_USE, expecting T_FUNCTION' in /var/www/htdocs/cmi_tel/app/models/User.php:11
+Stack trace:
+#0 [internal function]: ()
+#1 {main} [] []
+[2014-02-21 20:54:18] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/carousel-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:18] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/transition-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:19] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/popover-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:19] log.ERROR: 404 - Exception @ /assets/compiled/public/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:19] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tooltip-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:20] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/button-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:20] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/scrollspy-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:21] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/affix-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:21] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tab-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:21] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/collapse-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:21] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/dropdown-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:22] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/alert-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:22] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/modal-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:22] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/carousel-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:23] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/affix-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:23] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tooltip-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:24] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/transition-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:25] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/popover-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:25] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/button-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:26] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/scrollspy-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:26] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/collapse-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:27] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/dropdown-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:28] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/modal-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:29] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/tab-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:29] log.ERROR: 404 - Exception @ /assets/compiled/public/f359dc25b447158a8b40f27e10b5c362/alert-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:31] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:32] log.ERROR: 404 - Exception @ /assets/css/sb-admin.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:32] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/wysihtml5/prettify-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:33] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/datatables-bootstrap-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:33] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/carousel-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:33] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/colorbox-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:34] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/wysihtml5/bootstrap-wysihtml5-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:34] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/tooltip-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:34] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/transition-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:35] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/popover-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:35] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/affix-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:35] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/collapse-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:36] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/button-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:36] log.ERROR: 404 - Exception @ /assets/js/jquery.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:37] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/tab-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:37] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/alert-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:37] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/scrollspy-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:38] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/modal-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:38] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/wysihtml5/bootstrap-wysihtml5-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:39] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/datatables.fnReloadAjax-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:39] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/dropdown-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:39] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/wysihtml5/wysihtml5-0.3.0-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:39] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/affix-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:40] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/datatables-bootstrap-a8c5fb4dba315121848e2b73c9d44e29.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:40] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/jquery.colorbox-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:40] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/tooltip-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:42] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/wysihtml5/bootstrap-wysihtml5-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:42] log.ERROR: 404 - Exception @ /assets/css/sb-admin.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:42] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/datatables-bootstrap-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:43] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:43] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/colorbox-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:44] log.ERROR: 404 - Exception @ /assets/js/jquery.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:44] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/css/wysihtml5/prettify-61b4b4dfef2544f0f3f2221bc9bb641f.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:44] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/affix-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:45] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/carousel-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:45] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/popover-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:45] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/transition-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:46] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/button-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:46] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/collapse-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:46] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/modal-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:47] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/scrollspy-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:47] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/dropdown-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:47] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/alert-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:48] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/wysihtml5/bootstrap-wysihtml5-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:48] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/datatables-bootstrap-a8c5fb4dba315121848e2b73c9d44e29.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:49] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/datatables.fnReloadAjax-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:49] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/wysihtml5/wysihtml5-0.3.0-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:50] log.ERROR: 404 - Exception @ /assets/compiled/admin/f359dc25b447158a8b40f27e10b5c362/tab-49fe37fdd6b1d004e71a46c3650d6e3b.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:50] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/jquery.colorbox-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:51] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/prettify-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:51] log.ERROR: 404 - Exception @ /assets/js/flot/jquery.flot.selection.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:51] log.ERROR: 404 - Exception @ /assets/js/flot/jquery.flot.navigate.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:51] log.ERROR: 404 - Exception @ /assets/js/flot/jquery.flot.selection.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:52] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/jquery.colorbox-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:52] log.ERROR: 404 - Exception @ /assets/js/flot/jquery.flot.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:52] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/wysihtml5/wysihtml5-0.3.0-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:52] log.ERROR: 404 - Exception @ /assets/compiled/admin/assets/js/prettify-85db9e3ecf606e5794292fe0f86ebe5f.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 20:54:52] log.ERROR: 404 - Exception @ /assets/js/flot/jquery.flot.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /var/www/htdocs/cmi_tel/server.php(19): require_once('/var/www/htdocs...')
+#6 {main} [] []
+[2014-02-21 21:06:54] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /var/www/htdocs/cmi_tel/app/routes.php(191): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /var/www/htdocs/cmi_tel/app/routes.php(191): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-02-21 21:21:58] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /var/www/htdocs/cmi_tel/app/routes.php(191): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /var/www/htdocs/cmi_tel/app/routes.php(191): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-02-21 23:58:05] log.ERROR: 404 - Exception @ /telcmi/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-21 23:59:11] log.ERROR: 404 - Exception @ /telcmi/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

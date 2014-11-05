@@ -1,0 +1,5 @@
+[2014-09-12 14:52:34] log.ERROR: 500 - Call to undefined method SMSC::setFecha() @ /messages
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method SMSC::setFecha()' in /var/www/htdocs/turnos/app/controllers/MessagesControler.php:138
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

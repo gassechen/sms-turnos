@@ -1,0 +1,7 @@
+@extends('site.layouts.panel')
+		
+		
+		
+
+
+	

@@ -1,0 +1,150 @@
+[2014-08-08 00:18:51] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-08 00:18:52] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-08 19:24:18] log.ERROR: 500 - Call to a member function delete() on a non-object @ /turns/18
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to a member function delete() on a non-object' in /home/htdocs/turnos1/app/controllers/TurnsController.php:153
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 19:27:03] log.ERROR: 500 - Use of undefined constant fecha - assumed 'fecha' @ /turns
+exception 'ErrorException' with message 'Use of undefined constant fecha - assumed 'fecha'' in /home/htdocs/turnos1/app/storage/views/f9bc2b97ab1c87c3b228af076e9e254c:45
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/f9bc2b97ab1c87c3b228af076e9e254c(45): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/home/htdocs/tu...', 45, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-08 19:28:09] log.ERROR: 500 - Call to undefined method Illuminate\Database\Query\Builder::date() @ /turns
+exception 'BadMethodCallException' with message 'Call to undefined method Illuminate\Database\Query\Builder::date()' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:1658
+Stack trace:
+#0 [internal function]: Illuminate\Database\Query\Builder->__call('date', Array)
+#1 [internal function]: Illuminate\Database\Query\Builder->date('dd-mm-yyyy hh:i...', 1408141828)
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#3 [internal function]: Illuminate\Database\Eloquent\Builder->__call('date', Array)
+#4 [internal function]: Illuminate\Database\Eloquent\Builder->date('dd-mm-yyyy hh:i...', 1408141828)
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2636): call_user_func_array(Array, Array)
+#6 /home/htdocs/turnos1/app/storage/views/f9bc2b97ab1c87c3b228af076e9e254c(45): Illuminate\Database\Eloquent\Model->__call('date', Array)
+#7 /home/htdocs/turnos1/app/storage/views/f9bc2b97ab1c87c3b228af076e9e254c(45): Turn->date('dd-mm-yyyy hh:i...', 1408141828)
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#11 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#13 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#17 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#25 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#26 {main} [] []
+[2014-08-08 21:05:07] log.ERROR: 500 - Class 'SMSC' not found @ /turns
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'SMSC' not found' in /home/htdocs/turnos1/app/controllers/TurnsController.php:69
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:16:52] log.ERROR: 500 - syntax error, unexpected ')' @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /home/htdocs/turnos1/app/controllers/TurnsController.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:17:11] log.ERROR: 500 - syntax error, unexpected '}' @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /home/htdocs/turnos1/app/controllers/TurnsController.php:82
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:17:56] log.ERROR: 500 - syntax error, unexpected '}' @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /home/htdocs/turnos1/app/controllers/TurnsController.php:82
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:47:46] log.ERROR: 500 - syntax error, unexpected ';' @ /turns
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/htdocs/turnos1/app/controllers/TurnsController.php:77
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:48:56] log.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /turns
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in /home/htdocs/turnos1/app/controllers/TurnsController.php:75
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:49:31] log.ERROR: 500 - syntax error, unexpected '$r' (T_VARIABLE) @ /turns
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '$r' (T_VARIABLE)' in /home/htdocs/turnos1/app/controllers/TurnsController.php:82
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-08 21:50:39] log.ERROR: 500 - Undefined variable: value @ /turns
+exception 'ErrorException' with message 'Undefined variable: value' in /home/htdocs/turnos1/app/controllers/TurnsController.php:77
+Stack trace:
+#0 /home/htdocs/turnos1/app/controllers/TurnsController.php(77): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 77, Array)
+#1 [internal function]: TurnsController->store()
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-08-08 21:54:12] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-08 21:54:12] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []

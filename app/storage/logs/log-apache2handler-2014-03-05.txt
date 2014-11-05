@@ -1,0 +1,54 @@
+[2014-03-05 01:17:03] log.ERROR: 404 - Exception @ /phpmyadmin/scripts/setup.php
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-05 09:57:42] log.ERROR: 404 - Exception @ /HNAP1/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-05 17:00:18] log.ERROR: 404 - Exception @ /HNAP1/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-05 17:04:35] log.ERROR: 404 - Exception @ /HNAP1/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-05 17:41:06] log.ERROR: 404 - Exception @ /HNAP1/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-05 19:12:27] log.ERROR: 404 - Exception @ /telcmi/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

@@ -1,0 +1,85 @@
+
+<?php $__env->startSection('content'); ?>
+
+<div class="row">
+      <div class="col-lg-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+            	    
+                <h3 class="panel-title">Editar<i class="fa fa-money"></i> <?php echo $turn->name; ?></h3>
+                    
+              </div>
+              <div class="panel-body">
+                <div class="table-responsive">
+                  
+
+
+<!-- if there are creation errors, they will show here -->
+<?php echo HTML::ul($errors->all()); ?>
+
+<?php echo Form::model($turn, array('route' => array('turns.update', $turn->id), 'method' => 'PUT')); ?>
+
+	<div class="form-group">
+		<?php echo Form::label('name', 'Name'); ?>
+		<?php echo Form::text('name', null, array('class' => 'form-control')); ?>
+	</div>
+
+	<div class="form-group">
+		<?php echo Form::label('email', 'Email'); ?>
+		<?php echo Form::email('email', null, array('class' => 'form-control')); ?>
+	</div>
+
+	
+	<div class="form-group">
+		<?php echo Form::label('numtel', 'Telefono'); ?>
+		<?php echo Form::text('numtel', Input::old('numtel'), array('class' => 'form-control','id'=>'cnumtel')); ?>
+	</div>
+
+	<div class="form-group">	
+	
+		<?php echo Form::label('fecha', 'Fecha Proximo Turno'); ?>
+		<br>
+		<?php echo Form::text('fecha', Input::old('fecha'), array('class' => 'input-append date form_datetime')); ?>
+		 
+	</div>
+	
+
+	<?php echo Form::submit('Editar Turno !', array('class' => 'btn btn-primary')); ?>
+
+<?php echo Form::close(); ?>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<?php $__env->startSection('scripts'); ?>
+
+<script type="text/javascript">
+$('.form_datetime').datetimepicker({
+        language:  'es',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		
+		
+		format: "yyyy-mm-dd hh:ii"
+    });
+
+
+jQuery(function($){
+   $("#cnumtel").mask("9999999999");
+});
+
+
+
+
+
+</script> 
+<?php $__env->stopSection(); ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('site.layouts.panel', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,118 @@
+[2014-03-14 11:26:40] log.ERROR: 500 - SQLSTATE[HY000] [1045] Access denied for user 'cmingenieria'@'localhost' (using password: YES) @ /user/login
+exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'cmingenieria'@'localhost' (using password: YES)' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'cmingenieria', '1qaz2wsx3edc', Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2455): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2421): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1510): Illuminate\Database\Eloquent\Model->getConnection()
+#8 /var/www/htdocs/cmi_tel/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(830): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2634): LaravelBook\Ardent\Ardent->newQuery()
+#10 /var/www/htdocs/cmi_tel/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(345): Illuminate\Database\Eloquent\Model->__call('where', Array)
+#11 /var/www/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(112): LaravelBook\Ardent\Ardent->__call('where', Array)
+#12 /var/www/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(112): User->where('email', 'user')
+#13 /var/www/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/Confide.php(101): Zizaco\Confide\ConfideEloquentRepository->getUserByIdentity(Array, Array)
+#14 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Zizaco\Confide\Confide->logAttempt(Array, true)
+#15 /var/www/htdocs/cmi_tel/app/controllers/user/UserController.php(180): Illuminate\Support\Facades\Facade::__callStatic('logAttempt', Array)
+#16 /var/www/htdocs/cmi_tel/app/controllers/user/UserController.php(180): Zizaco\Confide\ConfideFacade::logAttempt(Array, true)
+#17 [internal function]: UserController->postLogin()
+#18 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#19 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postLogin', Array)
+#20 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#21 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#22 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#23 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#24 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#25 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#26 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#27 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#28 {main} [] []
+[2014-03-14 11:27:11] log.ERROR: 500 - SQLSTATE[HY000] [1045] Access denied for user 'cmingenieria'@'localhost' (using password: YES) @ /user/login
+exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'cmingenieria'@'localhost' (using password: YES)' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'cmingenieria', '1qaz2wsx3edc', Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2455): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2421): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1510): Illuminate\Database\Eloquent\Model->getConnection()
+#8 /var/www/htdocs/cmi_tel/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(830): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2634): LaravelBook\Ardent\Ardent->newQuery()
+#10 /var/www/htdocs/cmi_tel/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(345): Illuminate\Database\Eloquent\Model->__call('where', Array)
+#11 /var/www/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(112): LaravelBook\Ardent\Ardent->__call('where', Array)
+#12 /var/www/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(112): User->where('email', 'admin')
+#13 /var/www/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/Confide.php(101): Zizaco\Confide\ConfideEloquentRepository->getUserByIdentity(Array, Array)
+#14 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Zizaco\Confide\Confide->logAttempt(Array, true)
+#15 /var/www/htdocs/cmi_tel/app/controllers/user/UserController.php(180): Illuminate\Support\Facades\Facade::__callStatic('logAttempt', Array)
+#16 /var/www/htdocs/cmi_tel/app/controllers/user/UserController.php(180): Zizaco\Confide\ConfideFacade::logAttempt(Array, true)
+#17 [internal function]: UserController->postLogin()
+#18 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#19 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postLogin', Array)
+#20 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#21 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#22 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#23 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#24 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#25 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#26 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#27 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#28 {main} [] []
+[2014-03-14 16:26:33] log.ERROR: 404 - Exception @ /muieblackcat
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-14 16:26:35] log.ERROR: 404 - Exception @ //phpMyAdmin/scripts/setup.php
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-14 16:26:36] log.ERROR: 404 - Exception @ //phpmyadmin/scripts/setup.php
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-14 16:26:37] log.ERROR: 404 - Exception @ //pma/scripts/setup.php
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-14 16:26:39] log.ERROR: 404 - Exception @ //myadmin/scripts/setup.php
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-14 16:26:40] log.ERROR: 404 - Exception @ //MyAdmin/scripts/setup.php
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

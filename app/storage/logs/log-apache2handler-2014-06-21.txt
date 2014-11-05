@@ -1,0 +1,63 @@
+[2014-06-21 22:59:37] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-06-21 23:00:08] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-06-21 23:00:39] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-06-21 23:05:40] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-06-21 23:10:46] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-06-21 23:15:48] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-06-21 23:45:49] log.ERROR: 404 - Exception @ /announce
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

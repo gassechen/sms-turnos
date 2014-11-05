@@ -1,0 +1,94 @@
+[2014-03-10 02:35:04] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'cmingenieria'@'localhost' (using password: YES) @ /
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'cmingenieria'@'localhost' (using password: YES)' in /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'cmingenieria', '1qaz2wsx3edc', Array)
+#1 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(242): Illuminate\Database\DatabaseManager->connection()
+#6 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->__call('table', Array)
+#7 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->table('users')
+#8 /mnt/192.168.1.111/app/commands/UserGeneratorCommand.php(55): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#9 /mnt/192.168.1.111/app/commands/UserGeneratorCommand.php(55): Illuminate\Support\Facades\DB::table('users')
+#10 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): UserGeneratorCommand->fire()
+#11 /mnt/192.168.1.111/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /mnt/192.168.1.111/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /mnt/192.168.1.111/vendor/symfony/console/Symfony/Component/Console/Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /mnt/192.168.1.111/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(UserGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /mnt/192.168.1.111/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /mnt/192.168.1.111/artisan(59): Symfony\Component\Console\Application->run()
+#17 {main} [] []
+[2014-03-10 10:00:41] log.ERROR: 500 - Using $this when not in object context @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Using $this when not in object context' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:181
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 10:02:08] log.ERROR: 500 - Using $this when not in object context @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Using $this when not in object context' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:181
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 10:04:01] log.ERROR: 500 - Using $this when not in object context @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Using $this when not in object context' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:181
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 10:05:20] log.ERROR: 500 - Using $this when not in object context @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Using $this when not in object context' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:183
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 10:06:50] log.ERROR: 500 - Using $this when not in object context @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Using $this when not in object context' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:181
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 10:09:25] log.ERROR: 500 - Undefined variable: username @ /
+exception 'ErrorException' with message 'Undefined variable: username' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:188
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php(188): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 188, Array)
+#1 /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php(65): editar()
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): UserGeneratorCommand->fire()
+#3 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(UserGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2014-03-10 11:17:55] log.ERROR: 500 - syntax error, unexpected '{' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '{'' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:182
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 11:19:27] log.ERROR: 500 - syntax error, unexpected '[', expecting ')' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '[', expecting ')'' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:192
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 11:26:17] log.ERROR: 500 - Using $this when not in object context @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Using $this when not in object context' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:146
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 11:34:49] log.ERROR: 500 - syntax error, unexpected ')' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:185
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 11:35:53] log.ERROR: 500 - syntax error, unexpected ')' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:45
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 11:36:11] log.ERROR: 500 - Class 'UserGeneratorCommand' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UserGeneratorCommand' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-10 11:36:12] log.ERROR: 500 - Class 'UserGeneratorCommand' not found @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'UserGeneratorCommand' not found' in /var/www/htdocs/cmi_tel/app/start/artisan.php:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

@@ -1,0 +1,1212 @@
+[2014-05-14 08:21:15] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$id @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$id' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 08:28:10] log.ERROR: 500 - View [/admin/equipos/createeu] not found. @ /admin/equips/9/users/create
+exception 'InvalidArgumentException' with message 'View [/admin/equipos/createeu] not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('/admin/equipos/...', Array)
+#1 /home/htdocs/cmi_tel/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('/admin/equipos/...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Robbo\Presenter\View\Environment->make('/admin/equipos/...', Array)
+#3 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(36): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(36): Illuminate\Support\Facades\View::make('/admin/equipos/...', Array)
+#5 [internal function]: EquipsUsersController->create('9')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('9')
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-05-14 08:36:38] log.ERROR: 500 - syntax error, unexpected '*', expecting function (T_FUNCTION) @ /admin/equips/9/users/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '*', expecting function (T_FUNCTION)' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-14 08:37:06] log.ERROR: 500 - syntax error, unexpected '->' (T_OBJECT_OPERATOR) @ /admin/equips/9/users/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-14 08:42:12] log.ERROR: 404 - Exception @ /equips
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-14 08:43:38] log.ERROR: 404 - Exception @ /equips
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-14 08:44:22] log.ERROR: 404 - Exception @ /equips
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-14 08:44:44] log.ERROR: 404 - Exception @ /equips
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-14 08:45:37] log.ERROR: 500 - Undefined variable: equip_id @ /admin/equips
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/controllers/EquipsController.php:123
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(123): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 123, Array)
+#1 [internal function]: EquipsController->store()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 08:47:10] log.ERROR: 500 - A four digit year could not be found
+Data missing @ /admin/equips
+exception 'InvalidArgumentException' with message 'A four digit year could not be found
+Data missing' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '????? ?????')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('????? ?????')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('updated_at', '????? ?????')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(149): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:48:54] log.ERROR: 500 - A four digit year could not be found
+Data missing @ /admin/equips
+exception 'InvalidArgumentException' with message 'A four digit year could not be found
+Data missing' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '????? ?????')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('????? ?????')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('updated_at', '????? ?????')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(149): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:49:59] log.ERROR: 500 - A four digit year could not be found
+Data missing @ /admin/equips
+exception 'InvalidArgumentException' with message 'A four digit year could not be found
+Data missing' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '????? ?????')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('????? ?????')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('updated_at', '????? ?????')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(149): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:50:41] log.ERROR: 500 - Trailing data @ /admin/equips
+exception 'InvalidArgumentException' with message 'Trailing data' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '00-00-00 00:00:...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('00-00-00 00:00:...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('updated_at', '00-00-00 00:00:...')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(149): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:52:53] log.ERROR: 500 - Trailing data @ /admin/equips
+exception 'InvalidArgumentException' with message 'Trailing data' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '00-00-00 00:00:...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('00-00-00 00:00:...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('updated_at', '00-00-00 00:00:...')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(149): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:55:34] log.ERROR: 500 - A four digit year could not be found
+Data missing @ /admin/equips
+exception 'InvalidArgumentException' with message 'A four digit year could not be found
+Data missing' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', 'null')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('null')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('created_at', 'null')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(119): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:56:30] log.ERROR: 500 - A four digit year could not be found
+Data missing @ /admin/equips
+exception 'InvalidArgumentException' with message 'A four digit year could not be found
+Data missing' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', 'null')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('null')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('created_at', 'null')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(119): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 08:57:33] log.ERROR: 500 - Use of undefined constant now - assumed 'now' @ /admin/equips
+exception 'ErrorException' with message 'Use of undefined constant now - assumed 'now'' in /home/htdocs/cmi_tel/app/controllers/EquipsController.php:119
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(119): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/home/htdocs/cm...', 119, Array)
+#1 [internal function]: EquipsController->store()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 09:01:55] log.ERROR: 500 - A four digit year could not be found
+Data missing @ /admin/equips
+exception 'InvalidArgumentException' with message 'A four digit year could not be found
+Data missing' in /home/htdocs/cmi_tel/vendor/nesbot/carbon/src/Carbon/Carbon.php:333
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2220): Carbon\Carbon::createFromFormat('Y-m-d H:i:s', 'null')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2151): Illuminate\Database\Eloquent\Model->fromDateTime('null')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(306): Illuminate\Database\Eloquent\Model->setAttribute('created_at', 'null')
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(237): Illuminate\Database\Eloquent\Model->fill(Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(375): Illuminate\Database\Eloquent\Model->__construct(Array)
+#5 /home/htdocs/cmi_tel/app/controllers/EquipsController.php(148): Illuminate\Database\Eloquent\Model::create(Array)
+#6 [internal function]: EquipsController->store()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-05-14 09:09:02] log.ERROR: 404 - Controller method not found. @ /admin/equips/users
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:11:33] log.ERROR: 404 - Controller method not found. @ /admin/equips%7Bid%7D/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:12:07] log.ERROR: 404 - Controller method not found. @ /admin/equips/%7Bid%7D/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:12:39] log.ERROR: 404 - Controller method not found. @ /admin/equips/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:14:56] log.ERROR: 500 - Undefined variable: value @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Undefined variable: value' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:15:17] log.ERROR: 500 - Undefined variable: id @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:16:08] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:20:27] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:20:44] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:24:16] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:24:37] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/7/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:26:04] log.ERROR: 404 - Controller method not found. @ /admin/equips/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:26:20] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/usuario
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:27:39] log.ERROR: 500 - Array to string conversion @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Array to string conversion' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:28:23] log.ERROR: 500 - Trying to get property of non-object @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Trying to get property of non-object' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:29:28] log.ERROR: 500 - Undefined offset: 0 @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Undefined offset: 0' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:29:56] log.ERROR: 500 - Array to string conversion @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Array to string conversion' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:31:28] log.ERROR: 500 - syntax error, unexpected 'equipo' (T_STRING), expecting ')' @ /admin/equips/1/users/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'equipo' (T_STRING), expecting ')'' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-14 09:32:27] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/1
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:32:46] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$id @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$id' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:36:04] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/1
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:36:15] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$id @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$id' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:37:12] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$id @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$id' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:39:53] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$id @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$id' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:41:17] log.ERROR: 500 - Undefined variable: usuario @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined variable: usuario' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:43:21] log.ERROR: 500 - Undefined variable: equips @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined variable: equips' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:43:38] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/1
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:43:43] log.ERROR: 404 - Controller method not found. @ /admin/equips/1/users/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-14 09:43:48] log.ERROR: 500 - Undefined variable: equips @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined variable: equips' in /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7:11
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/0265c3d09c730104b9a03fec9bf758d7(11): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 11, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:47:24] log.ERROR: 500 - Undefined variable: id @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:31
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(31): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 31, Array)
+#1 [internal function]: EquipsUsersController->create('1')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 09:47:51] log.ERROR: 500 - Undefined variable: equip_id @ /admin/equips/1/users/create
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 09:50:09] log.ERROR: 500 - Undefined variable: equips @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined variable: equips' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:66
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(66): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 66, Array)
+#1 [internal function]: EquipsUsersController->store('1')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 09:51:22] log.ERROR: 500 - Undefined variable: equips @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined variable: equips' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:66
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(66): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 66, Array)
+#1 [internal function]: EquipsUsersController->store('1')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 09:51:26] log.ERROR: 500 - syntax error, unexpected 'ID' (T_STRING), expecting ',' or ';' @ /admin/equips/1/users/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'ID' (T_STRING), expecting ',' or ';'' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:9
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-14 09:52:11] log.ERROR: 500 - Undefined variable: equips @ /admin/equips/37/users
+exception 'ErrorException' with message 'Undefined variable: equips' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:66
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(66): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 66, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 09:53:47] log.ERROR: 404 - Exception @ /equips
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-14 10:01:52] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/37/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:04:14] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/37/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:04:26] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/37/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:05:28] log.ERROR: 500 - Missing argument 2 for EquipsUsersController::store() @ /admin/equips/37/users
+exception 'ErrorException' with message 'Missing argument 2 for EquipsUsersController::store()' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:40
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(40): Illuminate\Exception\Handler->handleError(2, 'Missing argumen...', '/home/htdocs/cm...', 40, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:07:13] log.ERROR: 500 - Undefined variable: equipo_id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: equipo_id' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:15
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(15): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 15, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 10:07:34] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/37/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:09:40] log.ERROR: 500 - Undefined variable: id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:31
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(31): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 31, Array)
+#1 [internal function]: EquipsUsersController->create('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:10:07] log.ERROR: 500 - Undefined variable: equip_id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:9
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(9): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 9, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 10:10:38] log.ERROR: 500 - Undefined variable: id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:9
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(9): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 9, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 10:10:51] log.ERROR: 500 - Undefined variable: equip_id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59:10
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/7c4d3819982941f9b29525113b547a59(10): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 10, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-14 10:11:27] log.ERROR: 500 - Undefined variable: id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:31
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(31): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 31, Array)
+#1 [internal function]: EquipsUsersController->create('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:11:43] log.ERROR: 500 - Undefined variable: id @ /admin/equips/37/users/create
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:31
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(31): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 31, Array)
+#1 [internal function]: EquipsUsersController->create('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:12:26] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/37/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:12:46] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/37/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('37')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('37')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:20:40] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/1/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('1')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:21:01] log.ERROR: 500 - Creating default object from empty value @ /admin/equips/1/users
+exception 'ErrorException' with message 'Creating default object from empty value' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:62
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(62): Illuminate\Exception\Handler->handleError(2, 'Creating defaul...', '/home/htdocs/cm...', 62, Array)
+#1 [internal function]: EquipsUsersController->store('1')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-05-14 10:22:11] log.ERROR: 500 - Undefined variable: id @ /admin/equips/1/users
+exception 'ErrorException' with message 'Undefined variable: id' in /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php:68
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/controllers/EquipsUsersController.php(68): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 68, Array)
+#1 [internal function]: EquipsUsersController->store('1')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('1')
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []

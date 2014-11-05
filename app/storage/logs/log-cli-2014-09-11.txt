@@ -1,0 +1,10 @@
+[2014-09-11 09:00:02] log.ERROR: 500 - syntax error, unexpected '*' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '*'' in /var/www/htdocs/turnos/app/commands/sendmesajes.php:110
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-11 09:00:02] log.ERROR: 500 - syntax error, unexpected '*' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '*'' in /var/www/htdocs/turnos/app/commands/sendmesajes.php:110
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

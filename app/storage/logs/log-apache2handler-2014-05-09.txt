@@ -1,0 +1,939 @@
+[2014-05-09 08:59:49] log.ERROR: 500 - Exception @ /user/login
+exception 'Illuminate\Session\TokenMismatchException' in /home/htdocs/cmi_tel/app/filters.php:99
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(262): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(185): Illuminate\Routing\Controllers\Controller->callFilter(Object(Illuminate\Routing\Route), 'csrf', Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(109): Illuminate\Routing\Controllers\Controller->callBeforeFilters(Object(Illuminate\Routing\Router), 'postLogin')
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-09 09:20:39] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'horamarcha' in 'field list' (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horamarcha`, `horasparo` from `mesures` where `equip_id` in (?, ?, ?, ?) order by `fecha` desc) (Bindings: array (
+  0 => 9,
+  1 => 10,
+  2 => 11,
+  3 => 12,
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'horamarcha' in 'field list'' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'horamarcha' in 'field list' (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horamarcha`, `horasparo` from `mesures` where `equip_id` in (?, ?, ?, ?) order by `fecha` desc) (Bindings: array (
+  0 => 9,
+  1 => 10,
+  2 => 11,
+  3 => 12,
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 09:22:30] log.ERROR: 500 - Division by zero @ /generatorlist
+exception 'ErrorException' with message 'Division by zero' in /home/htdocs/cmi_tel/app/routes.php:217
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(217): Illuminate\Exception\Handler->handleError(2, 'Division by zer...', '/home/htdocs/cm...', 217, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 09:24:16] log.ERROR: 500 - Division by zero @ /generatorlist
+exception 'ErrorException' with message 'Division by zero' in /home/htdocs/cmi_tel/app/routes.php:217
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(217): Illuminate\Exception\Handler->handleError(2, 'Division by zer...', '/home/htdocs/cm...', 217, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 10:30:05] log.ERROR: 500 - syntax error, unexpected '-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' @ /generatorlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '-', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:38
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 10:41:19] log.ERROR: 404 - Exception @ /equips
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-09 10:56:32] log.ERROR: 404 - Controller method not found. @ /admin/equipos
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-09 11:03:02] log.ERROR: 500 - Invalid argument supplied for foreach() @ /equipos
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/htdocs/cmi_tel/app/routes.php:313
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(313): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', '/home/htdocs/cm...', 313, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 11:03:58] log.ERROR: 500 - Invalid argument supplied for foreach() @ /equipos
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/htdocs/cmi_tel/app/routes.php:313
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(313): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', '/home/htdocs/cm...', 313, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 11:04:15] log.ERROR: 500 - Invalid argument supplied for foreach() @ /equipos
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/htdocs/cmi_tel/app/routes.php:313
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(313): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', '/home/htdocs/cm...', 313, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 13:16:39] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 13:17:00] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 13:20:11] log.ERROR: 500 - Undefined class constant 'all' @ /equipos
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Undefined class constant 'all'' in /home/htdocs/cmi_tel/app/routes.php:312
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 13:20:28] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$usuario @ /equipos
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$usuario' in /home/htdocs/cmi_tel/app/routes.php:315
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(315): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 315, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 13:21:42] log.ERROR: 500 - Trying to get property of non-object @ /equipos
+exception 'ErrorException' with message 'Trying to get property of non-object' in /home/htdocs/cmi_tel/app/routes.php:315
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(315): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/htdocs/cm...', 315, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 13:21:47] log.ERROR: 500 - Trying to get property of non-object @ /equipos
+exception 'ErrorException' with message 'Trying to get property of non-object' in /home/htdocs/cmi_tel/app/routes.php:315
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(315): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/htdocs/cm...', 315, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 16:31:31] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 16:33:12] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 16:33:19] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(209): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 16:34:30] log.ERROR: 500 - syntax error, unexpected end of file @ /equipos
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /home/htdocs/cmi_tel/app/routes.php:392
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 16:34:49] log.ERROR: 500 - syntax error, unexpected end of file @ /equipos
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /home/htdocs/cmi_tel/app/routes.php:394
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 16:36:17] log.ERROR: 500 - Invalid argument supplied for foreach() @ /equipos
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/htdocs/cmi_tel/app/routes.php:388
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(388): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', '/home/htdocs/cm...', 388, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 16:42:03] log.ERROR: 500 - Undefined variable: user_id @ /totemlist
+exception 'ErrorException' with message 'Undefined variable: user_id' in /home/htdocs/cmi_tel/app/routes.php:164
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(164): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 164, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 16:42:23] log.ERROR: 500 - array_merge(): Argument #2 is not an array @ /totemlist
+exception 'ErrorException' with message 'array_merge(): Argument #2 is not an array' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:565
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_merge(): ...', '/home/htdocs/cm...', 565, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(565): array_merge(Array, Object(User))
+#2 [internal function]: Illuminate\Database\Query\Builder->whereIn('equip_id', Object(User))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#4 /home/htdocs/cmi_tel/app/routes.php(171): Illuminate\Database\Eloquent\Builder->__call('whereIn', Array)
+#5 /home/htdocs/cmi_tel/app/routes.php(171): Illuminate\Database\Eloquent\Builder->whereIn('equip_id', Object(User))
+#6 [internal function]: {closure}()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-09 17:24:09] log.ERROR: 500 - syntax error, unexpected '*' @ /totemlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '*'' in /home/htdocs/cmi_tel/app/routes.php:203
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 17:24:23] log.ERROR: 500 - array_merge(): Argument #2 is not an array @ /totemlist
+exception 'ErrorException' with message 'array_merge(): Argument #2 is not an array' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:565
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_merge(): ...', '/home/htdocs/cm...', 565, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(565): array_merge(Array, Object(User))
+#2 [internal function]: Illuminate\Database\Query\Builder->whereIn('equip_id', Object(User))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#4 /home/htdocs/cmi_tel/app/routes.php(178): Illuminate\Database\Eloquent\Builder->__call('whereIn', Array)
+#5 /home/htdocs/cmi_tel/app/routes.php(178): Illuminate\Database\Eloquent\Builder->whereIn('equip_id', Object(User))
+#6 [internal function]: {closure}()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-09 17:26:17] log.ERROR: 500 - Cannot use [] for reading @ /totemlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use [] for reading' in /home/htdocs/cmi_tel/app/routes.php:178
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 17:27:45] log.ERROR: 500 - Undefined variable: volumen @ /totemlist
+exception 'ErrorException' with message 'Undefined variable: volumen' in /home/htdocs/cmi_tel/app/routes.php:200
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(200): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 200, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 17:27:54] log.ERROR: 500 - Undefined variable: volumen @ /totemlist
+exception 'ErrorException' with message 'Undefined variable: volumen' in /home/htdocs/cmi_tel/app/routes.php:200
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(200): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 200, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 17:28:44] log.ERROR: 500 - array_merge(): Argument #2 is not an array @ /totemlist
+exception 'ErrorException' with message 'array_merge(): Argument #2 is not an array' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:565
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'array_merge(): ...', '/home/htdocs/cm...', 565, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(565): array_merge(Array, 8)
+#2 [internal function]: Illuminate\Database\Query\Builder->whereIn('equip_id', 8)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#4 /home/htdocs/cmi_tel/app/routes.php(178): Illuminate\Database\Eloquent\Builder->__call('whereIn', Array)
+#5 /home/htdocs/cmi_tel/app/routes.php(178): Illuminate\Database\Eloquent\Builder->whereIn('equip_id', 8)
+#6 [internal function]: {closure}()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-09 17:30:35] log.ERROR: 500 - Undefined variable: volumen @ /totemlist
+exception 'ErrorException' with message 'Undefined variable: volumen' in /home/htdocs/cmi_tel/app/routes.php:200
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(200): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 200, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 17:36:56] log.ERROR: 500 - syntax error, unexpected '->' (T_OBJECT_OPERATOR) @ /totemlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/htdocs/cmi_tel/app/routes.php:200
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 17:37:24] log.ERROR: 500 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+)) @ /generatorlist
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `equip_i...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `equip_i...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(262): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by `fecha` desc' at line 1 (SQL: select `equip_id`, `status`, `tension`, `current`, `spow`, `temp`, `leveloil`, `levelgasoil`, `fecha`, `horasmarcha`, `horasdeten` from `mesures` where `equip_id` in () order by `fecha` desc) (Bindings: array (
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `equip_i...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `equip_i...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `equip_i...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(262): Illuminate\Database\Eloquent\Builder->get(Array)
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 18:50:56] log.ERROR: 500 - syntax error, unexpected '=' @ /totemlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /home/htdocs/cmi_tel/app/routes.php:114
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 18:51:16] log.ERROR: 500 - Undefined property: LaravelBook\Ardent\Builder::$equips @ /totemlist
+exception 'ErrorException' with message 'Undefined property: LaravelBook\Ardent\Builder::$equips' in /home/htdocs/cmi_tel/app/routes.php:116
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(116): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 116, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 18:52:17] log.ERROR: 500 - Undefined property: LaravelBook\Ardent\Builder::$equips @ /totemlist
+exception 'ErrorException' with message 'Undefined property: LaravelBook\Ardent\Builder::$equips' in /home/htdocs/cmi_tel/app/routes.php:116
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(116): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 116, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 18:55:34] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipo' in 'where clause' (SQL: select * from `users` where `tipo` = ?) (Bindings: array (
+  0 => 'totem',
+)) @ /totemlist
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipo' in 'where clause'' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select * from `...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select * from `...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/htdocs/cmi_tel/app/routes.php(114): Illuminate\Database\Eloquent\Builder->get()
+#9 [internal function]: {closure}()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipo' in 'where clause' (SQL: select * from `users` where `tipo` = ?) (Bindings: array (
+  0 => 'totem',
+))' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select * from `...', Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select * from `...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/htdocs/cmi_tel/app/routes.php(114): Illuminate\Database\Eloquent\Builder->get()
+#8 [internal function]: {closure}()
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#15 {main} [] []
+[2014-05-09 19:01:36] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:220
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(220): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 220, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:03:32] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:220
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(220): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 220, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:03:54] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:220
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(220): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 220, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:22:23] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:222
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(222): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 222, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:22:36] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:222
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(222): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 222, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:23:07] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:222
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(222): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 222, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:23:38] log.ERROR: 500 - Undefined variable: equip_id @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: equip_id' in /home/htdocs/cmi_tel/app/routes.php:222
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(222): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 222, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-09 19:41:15] log.ERROR: 404 - Exception @ /equip
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-09 19:41:31] log.ERROR: 500 - Class EquipsController does not exist @ /equips
+exception 'ReflectionException' with message 'Class EquipsController does not exist' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Container/Container.php:308
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Container/Container.php(308): ReflectionClass->__construct('EquipsControlle...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build('EquipsControlle...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(478): Illuminate\Container\Container->make('EquipsControlle...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(983): Illuminate\Foundation\Application->make('EquipsControlle...')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-09 19:41:38] log.ERROR: 500 - Class EquipsController does not exist @ /equips/2
+exception 'ReflectionException' with message 'Class EquipsController does not exist' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Container/Container.php:308
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Container/Container.php(308): ReflectionClass->__construct('EquipsControlle...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build('EquipsControlle...', Array)
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(478): Illuminate\Container\Container->make('EquipsControlle...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(983): Illuminate\Foundation\Application->make('EquipsControlle...')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('2')
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-05-09 19:42:16] log.ERROR: 500 - syntax error, unexpected 'public' (T_PUBLIC) @ /equips
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC)' in /home/htdocs/cmi_tel/app/controllers/EquipsController.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 19:43:06] log.ERROR: 500 - syntax error, unexpected 'public' (T_PUBLIC) @ /equips/index
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC)' in /home/htdocs/cmi_tel/app/controllers/EquipsController.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-09 19:43:32] log.ERROR: 500 - Undefined variable: equipos @ /equips
+exception 'ErrorException' with message 'Undefined variable: equipos' in /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e:5
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e(5): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 5, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-09 19:44:11] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$username @ /equips
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$username' in /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e:6
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e(6): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/home/htdocs/cm...', 6, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-09 23:32:03] log.ERROR: 500 - Undefined variable: nerds @ /equips
+exception 'ErrorException' with message 'Undefined variable: nerds' in /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e:36
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e(36): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 36, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-05-09 23:38:35] log.ERROR: 500 - Trying to get property of non-object @ /equips
+exception 'ErrorException' with message 'Trying to get property of non-object' in /home/htdocs/cmi_tel/app/storage/views/27eeb38ee7b3dc0c13e431b62ad43a2b:113
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/27eeb38ee7b3dc0c13e431b62ad43a2b(113): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/htdocs/cm...', 113, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e(63): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#11 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#18 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#19 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 {main} [] []
+[2014-05-09 23:40:50] log.ERROR: 500 - Trying to get property of non-object @ /equips
+exception 'ErrorException' with message 'Trying to get property of non-object' in /home/htdocs/cmi_tel/app/storage/views/27eeb38ee7b3dc0c13e431b62ad43a2b:113
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/27eeb38ee7b3dc0c13e431b62ad43a2b(113): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/htdocs/cm...', 113, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e(60): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#11 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#18 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#19 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 {main} [] []
+[2014-05-09 23:43:57] log.ERROR: 500 - Trying to get property of non-object @ /equips
+exception 'ErrorException' with message 'Trying to get property of non-object' in /home/htdocs/cmi_tel/app/storage/views/27eeb38ee7b3dc0c13e431b62ad43a2b:113
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/27eeb38ee7b3dc0c13e431b62ad43a2b(113): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/htdocs/cm...', 113, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/app/storage/views/cd4cd35981a5483e48e64b4e7595484e(60): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#11 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#13 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'index', Object(Robbo\Presenter\View\View))
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#18 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#19 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 {main} [] []
+[2014-05-09 23:57:32] log.ERROR: 404 - Exception @ /users
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

@@ -1,0 +1,259 @@
+[2014-05-06 00:08:57] log.ERROR: 500 - Cannot send message without a sender address @ /user/forgot
+exception 'Swift_TransportException' with message 'Cannot send message without a sender address' in /home/htdocs/cmi_tel/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:164
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#3 /home/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#4 /home/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(120): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#5 /home/htdocs/cmi_tel/vendor/zizaco/confide/src/Zizaco/Confide/Confide.php(158): Zizaco\Confide\ConfideUser->forgotPassword()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Zizaco\Confide\Confide->forgotPassword('gassechen@gmail...')
+#7 /home/htdocs/cmi_tel/app/controllers/user/UserController.php(241): Illuminate\Support\Facades\Facade::__callStatic('forgotPassword', Array)
+#8 /home/htdocs/cmi_tel/app/controllers/user/UserController.php(241): Zizaco\Confide\ConfideFacade::forgotPassword('gassechen@gmail...')
+#9 [internal function]: UserController->postForgot()
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postForgot', Array)
+#12 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postForgot', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#14 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-05-06 00:10:09] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-06 00:10:09] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-06 00:32:57] log.ERROR: 500 - Division by zero @ /generatorlist
+exception 'ErrorException' with message 'Division by zero' in /home/htdocs/cmi_tel/app/routes.php:217
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/routes.php(217): Illuminate\Exception\Handler->handleError(2, 'Division by zer...', '/home/htdocs/cm...', 217, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-05-06 00:34:43] log.ERROR: 500 - syntax error, unexpected 'return' (T_RETURN) @ /generatorlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'return' (T_RETURN)' in /home/htdocs/cmi_tel/app/routes.php:225
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 00:35:03] log.ERROR: 500 - Undefined variable: nivel @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: nivel' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 00:35:25] log.ERROR: 500 - Undefined variable: nivel @ /generatorlist
+exception 'ErrorException' with message 'Undefined variable: nivel' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 00:36:57] log.ERROR: 500 - syntax error, unexpected '->' (T_OBJECT_OPERATOR) @ /generatorlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in /home/htdocs/cmi_tel/app/routes.php:224
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 00:37:12] log.ERROR: 500 - Undefined offset: 0 @ /generatorlist
+exception 'ErrorException' with message 'Undefined offset: 0' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 00:38:21] log.ERROR: 500 - Undefined offset: 1 @ /generatorlist
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 00:38:54] log.ERROR: 500 - Undefined offset: 1 @ /generatorlist
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 00:39:14] log.ERROR: 500 - Undefined offset: 0 @ /generatorlist
+exception 'ErrorException' with message 'Undefined offset: 0' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 00:39:38] log.ERROR: 500 - syntax error, unexpected '{' @ /generatorlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '{'' in /home/htdocs/cmi_tel/app/routes.php:212
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 00:40:09] log.ERROR: 500 - Undefined offset: 3 @ /generatorlist
+exception 'ErrorException' with message 'Undefined offset: 3' in /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163:49
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/5828e8a016b226adbeac9bf81257d163(49): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/cm...', 49, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 16:04:37] log.ERROR: 500 - syntax error, unexpected ';' @ /generator/11
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 16:09:57] log.ERROR: 500 - syntax error, unexpected ';' @ /generator/11
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 16:10:41] log.ERROR: 500 - syntax error, unexpected ';' @ /generator/11
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 16:10:44] log.ERROR: 500 - syntax error, unexpected ';' @ /generator/11
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-06 16:11:53] log.ERROR: 500 - Undefined variable: promediops @ /generator/11
+exception 'ErrorException' with message 'Undefined variable: promediops' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff(22): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 22, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 16:13:28] log.ERROR: 500 - Undefined variable: promediops @ /generator/11
+exception 'ErrorException' with message 'Undefined variable: promediops' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff(22): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 22, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-05-06 16:14:13] log.ERROR: 500 - Undefined variable: promediops @ /generator/11
+exception 'ErrorException' with message 'Undefined variable: promediops' in /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff:22
+Stack trace:
+#0 /home/htdocs/cmi_tel/app/storage/views/b24e784aa36054784b6f2cc7ba05d5ff(22): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/cm...', 22, Array)
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/cm...')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/cm...', Array)
+#3 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/cm...', Array)
+#4 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []

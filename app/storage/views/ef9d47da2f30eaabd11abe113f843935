@@ -1,0 +1,134 @@
+
+<?php $__env->startSection('content'); ?>
+<!-- will be used to show any messages -->
+<?php if (Session::has('message')): ?>
+  <div class="alert alert-info"><?php echo Session::get('message'); ?></div>
+<?php endif; ?>
+
+
+
+
+<div class="row">
+      <div class="col-lg-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+            	    <span class="pull-right"><a class="btn btn-small btn-success" href="<?php echo URL::to('messages/create' ); ?>">Nuevo Sms</a> </span>
+                <h3 class="panel-title"><i class="fa fa-money"></i> <?php echo "Nuevo SMS"; ?></h3>
+                   
+              </div>
+              <div class="panel-body">
+                <div class="table-responsive">
+                  <table id="totem" class="table table-bordered table-hover table-striped tablesorter">
+                    <thead>
+                    	
+
+                      <tr>
+                        
+                      	<th>ID <i class="fa fa-sort"></i></th>
+                        <th>Nombre<i class="fa fa-sort"></i></th>
+                        
+                        <th>Numero Tel <i class="fa fa-sort"></i></th>
+                        <th>Mensaje <i class="fa fa-sort"></i></th>
+                        <?php /*  <th>Status <i class="fa fa-sort"></i></th>  */ ?>
+                        <th>fecha <i class="fa fa-sort"></i></th>
+                        <th>Acciones<i class="fa fa-sort"></i></th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                    	<?php foreach($messages as $value): ?>
+                      <tr>
+                      	<td><?php echo $value->id; ?></td>
+            		<td><?php echo $value->mcname; ?></td>
+            		<td><?php echo $value->mcnumtel; ?></td>
+            						
+            		<td style="word-break:break-all;"><?php echo $value->mensaje; ?></td>
+                        
+                        
+                       <?php /*  <?php if($value->status=='0'): ?>  */ ?>
+                          
+                         <?php /*   <td><span class="label label-warning">Enviando</span></td>  */ ?>
+                         <?php /*  <?php elseif($value->status=='1'): ?> */ ?> 
+                          <?php /*   <td><span class="label label-success">Enviado </span></td> */ ?>
+
+                          <?php /*   <?php elseif ($value->status=='2'): ?> */ ?> 
+                          <?php /*     <td><span class="label label-danger">ERROR   </span></td> */ ?>
+                         <?php /* <?php endif; ?>   */ ?>
+                                  
+                        <td><?php echo date("d-m-Y H:i", strtotime($value->fecha)); ?></td>
+                        
+						            <td>
+
+		<!-- delete the contact (uses the destroy method DESTROY /contacts/{id} -->
+		<!-- we will add this later since its a little more complicated than the first two buttons -->
+
+	<?php echo Form::open(array('url' => 'messages/' . $value->id, 'class' => 'pull-right')); ?>
+			<?php echo Form::hidden('_method', 'DELETE'); ?>
+			<?php echo Form::submit('Borrar Mensaje', array('class' => 'btn btn-warning')); ?>
+			<?php echo Form::close(); ?>
+
+								<!-- show the contact (uses the show method found at GET /contacts/{id} -->
+                
+								
+
+								<!-- edit this contact (uses the edit method found at GET /contacts/{id}/edit -->
+								<?php /* <a class="btn btn-small btn-info" href="<?php echo URL::to('mesagges/' . $value->id . '/edit'); ?>">Editar Mensaje</a>  */ ?>
+
+						        </td>
+                      </tr>
+                      <?php endforeach; ?>
+                      </tbody>
+                  </table>
+                  
+					 </div>
+           </div>
+         </div>
+       </div>
+					<!--to show the pagination field-->
+  
+                <div class="text-right">
+                  
+                </div>
+              </div>
+              
+
+<?php $__env->startSection('scripts'); ?>
+	<script type="text/javascript">
+		var oTable;
+		$(document).ready(function() {
+			oTable = $('#totem').dataTable( {
+				"sDom": "<'row'<'col-md-6'l><'col-md-6'f>r>t<'row'<'col-md-6'i><'col-md-6'p>>",
+				"sPaginationType": "bootstrap",
+				"oLanguage": {
+					"sLengthMenu": "_MENU_ records per page"
+				}
+				"aaSorting": [[ 1, "desc" ]],
+				"aoColumns": [
+				null,
+				null,
+				null,
+				null,
+        null,
+        
+        null
+				],
+				
+        		"oTableTools": {
+           				// "sSwfPath": "../assets/js/copy_csv_xls_pdf.swf"
+
+    					// "aButtons": ["copy", "csv", "pdf", "print"]			
+                                    	}
+                                    	});
+                                 } );
+
+	</script>
+
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->stopSection(); ?>
+
+
+
+
+<?php echo $__env->make('site.layouts.panel', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

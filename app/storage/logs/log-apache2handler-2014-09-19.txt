@@ -1,0 +1,92 @@
+[2014-09-19 02:57:59] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 02:58:13] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:21:30] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:26:43] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:26:52] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:27:13] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:30:38] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:31:03] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:36:54] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:39:37] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:44:17] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 03:44:28] log.ERROR: 500 - Class 'Memcached' not found @ /user/login
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php:40
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-09-19 21:32:47] log.ERROR: 500 - Cannot send message without a sender address @ /user
+exception 'Swift_TransportException' with message 'Cannot send message without a sender address' in /var/www/htdocs/turnos/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:164
+Stack trace:
+#0 /var/www/htdocs/turnos/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(86): Swift_Transport_AbstractSmtpTransport->send(Object(Swift_Message), Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#3 /var/www/htdocs/turnos/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#4 /var/www/htdocs/turnos/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#5 /var/www/htdocs/turnos/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#6 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#11 /var/www/htdocs/turnos/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#12 /var/www/htdocs/turnos/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#13 /var/www/htdocs/turnos/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#14 /var/www/htdocs/turnos/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#15 /var/www/htdocs/turnos/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#16 /var/www/htdocs/turnos/app/controllers/user/UserController.php(66): Zizaco\Confide\ConfideUser->save()
+#17 [internal function]: UserController->postIndex()
+#18 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#19 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#20 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#21 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#22 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#23 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#24 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#25 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#26 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#27 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#28 {main} [] []

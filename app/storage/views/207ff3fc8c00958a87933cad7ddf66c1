@@ -1,0 +1,108 @@
+
+<?php $__env->startSection('content'); ?>
+
+
+<div class="row">
+      <div class="col-lg-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+            	    
+                <h3 class="panel-title">Nuevo Turno<i class="fa fa-money"></i> </h3>
+                    
+              </div>
+              <div class="panel-body">
+                <div class="table-responsive">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">            
+<!-- if there are creation errors, they will show here -->
+<?php echo HTML::ul($errors->all() ); ?>
+
+<?php echo Form::open(array('url' => 'turns')); ?>
+	
+	<div class="form-group">
+		<?php echo Form::label('name', 'Nombre'); ?>
+		<?php echo Form::text('name', Input::old('name'), array('class' => 'form-control input-lg','id'=>'cname','placeholder'=>'Ingrese Contacto' )); ?>
+	</div>
+
+
+	<div class="form-group">
+		<?php echo Form::label('email', 'Email'); ?>
+		<?php echo Form::email('email', Input::old('email'), array('class' => 'form-control','id'=>'cemail','readonly'=>'readonly')); ?>
+	</div>
+
+	<p>"Ingresar sin el 0 y sin el 15 ej: 2994066572"</p>	
+
+	<div class="form-group">
+		<?php echo Form::label('numtel', 'Telefono'); ?>
+		<?php echo Form::text('numtel', Input::old('numtel'), array('class' => 'form-control','id'=>'cnumtel','readonly'=>'readonly')); ?>
+	</div>
+
+	<div class="form-group">	
+	
+		<?php echo Form::label('fecha', 'Fecha Proximo Turno'); ?>
+		<br>
+		<?php echo Form::text('fecha', Input::old('fecha'), array('class' => 'input-append date form_datetime' )); ?>
+		 
+	</div>
+	
+	
+
+	<?php echo Form::submit('Nuevo turno', array('class' => 'btn btn-primary')); ?>
+
+<?php echo Form::close(); ?>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<?php $__env->startSection('scripts'); ?>
+
+<script type="text/javascript">
+$('.form_datetime').datetimepicker({
+        language:  'es',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		
+		
+		format: "yyyy-mm-dd hh:ii"
+    });
+
+$(document).ready(function(){
+    var ac_config = {
+         
+         source:[<?php echo $contacts; ?>],
+                        
+        select: function(event, ui){
+            $("#cname").val(ui.item.cname);
+            $("#cemail").val(ui.item.cemail);
+            $("#cnumtel").val(ui.item.cnumtel);
+        },
+        minLength:1
+    };
+    $("#cname").autocomplete(ac_config);
+});
+jQuery(function($){
+   $("#cnumtel").mask("9999999999");
+});
+
+</script>
+
+
+
+
+
+
+
+</script> 
+<?php $__env->stopSection(); ?>
+
+<?php $__env->stopSection(); ?>
+
+
+
+
+<?php echo $__env->make('site.layouts.panel', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

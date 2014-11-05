@@ -1,0 +1,224 @@
+[2014-08-16 00:12:26] log.ERROR: 500 - Array to string conversion @ /turns/create
+exception 'ErrorException' with message 'Array to string conversion' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:31
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(31): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/htdocs/tu...', 31, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-16 00:14:00] log.ERROR: 500 - Undefined variable: contact @ /turns/create
+exception 'ErrorException' with message 'Undefined variable: contact' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:42
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(42): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 42, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-16 00:14:16] log.ERROR: 500 - Array to string conversion @ /turns/create
+exception 'ErrorException' with message 'Array to string conversion' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:42
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(42): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/htdocs/tu...', 42, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-16 00:19:21] log.ERROR: 500 - Cannot use [] for reading @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use [] for reading' in /home/htdocs/turnos1/app/controllers/TurnsController.php:48
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:27:17] log.ERROR: 500 - syntax error, unexpected '}' @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /home/htdocs/turnos1/app/controllers/TurnsController.php:53
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:27:43] log.ERROR: 500 - Undefined variable: contacs @ /turns/create
+exception 'ErrorException' with message 'Undefined variable: contacs' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:41
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(41): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 41, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-16 00:29:20] log.ERROR: 500 - Cannot use [] for reading @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use [] for reading' in /home/htdocs/turnos1/app/controllers/TurnsController.php:47
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:30:11] log.ERROR: 500 - Array to string conversion @ /turns/create
+exception 'ErrorException' with message 'Array to string conversion' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:41
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(41): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/htdocs/tu...', 41, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-16 00:30:25] log.ERROR: 500 - Array to string conversion @ /turns/create
+exception 'ErrorException' with message 'Array to string conversion' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:41
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(41): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/htdocs/tu...', 41, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-16 00:31:04] log.ERROR: 500 - json_decode() expects parameter 1 to be string, array given @ /turns/create
+exception 'ErrorException' with message 'json_decode() expects parameter 1 to be string, array given' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:41
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'json_decode() e...', '/home/htdocs/tu...', 41, Array)
+#1 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(41): json_decode(Array)
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#6 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#11 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-08-16 00:32:28] log.ERROR: 500 - syntax error, unexpected '$matches' (T_VARIABLE) @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '$matches' (T_VARIABLE)' in /home/htdocs/turnos1/app/controllers/TurnsController.php:43
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:34:22] log.ERROR: 500 - syntax error, unexpected '$matches' (T_VARIABLE) @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '$matches' (T_VARIABLE)' in /home/htdocs/turnos1/app/controllers/TurnsController.php:43
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:34:43] log.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in /home/htdocs/turnos1/app/controllers/TurnsController.php:43
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:35:01] log.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in /home/htdocs/turnos1/app/controllers/TurnsController.php:43
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:36:26] log.ERROR: 500 - Call to undefined function strcat() @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function strcat()' in /home/htdocs/turnos1/app/controllers/TurnsController.php:43
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-16 00:40:57] log.ERROR: 500 - Undefined variable: matches @ /turns/create
+exception 'ErrorException' with message 'Undefined variable: matches' in /home/htdocs/turnos1/app/controllers/TurnsController.php:48
+Stack trace:
+#0 /home/htdocs/turnos1/app/controllers/TurnsController.php(48): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 48, Array)
+#1 [internal function]: TurnsController->create()
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-08-16 00:47:53] log.ERROR: 500 - Call to undefined function inplode() @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function inplode()' in /home/htdocs/turnos1/app/controllers/TurnsController.php:47
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

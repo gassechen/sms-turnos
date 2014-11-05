@@ -1,0 +1,22 @@
+[2014-08-27 22:51:19] log.ERROR: 500 - Undefined variable: turn @ /contacts/10/edit
+exception 'ErrorException' with message 'Undefined variable: turn' in /var/www/htdocs/turnos/app/storage/views/6f0a841eaaed286336c797cf39ddbac1:9
+Stack trace:
+#0 /var/www/htdocs/turnos/app/storage/views/6f0a841eaaed286336c797cf39ddbac1(9): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 9, Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /var/www/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Robbo\Presenter\View\View))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('10')
+#12 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []

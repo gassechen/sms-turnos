@@ -1,0 +1,182 @@
+[2014-08-14 19:34:20] log.ERROR: 500 - Exception @ /user/login
+exception 'Illuminate\Session\TokenMismatchException' in /home/htdocs/turnos1/app/filters.php:99
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(262): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request), Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(185): Illuminate\Routing\Controllers\Controller->callFilter(Object(Illuminate\Routing\Route), 'csrf', Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(109): Illuminate\Routing\Controllers\Controller->callBeforeFilters(Object(Illuminate\Routing\Router), 'postLogin')
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#14 {main} [] []
+[2014-08-14 19:35:09] log.ERROR: 500 - View [site.contacts.edit] not found. @ /contacts/2/edit
+exception 'InvalidArgumentException' with message 'View [site.contacts.edit] not found.' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('site.contacts.e...', Array)
+#1 /home/htdocs/turnos1/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('site.contacts.e...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Robbo\Presenter\View\Environment->make('site.contacts.e...')
+#3 /home/htdocs/turnos1/app/controllers/ContactsController.php(118): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/htdocs/turnos1/app/controllers/ContactsController.php(118): Illuminate\Support\Facades\View::make('site.contacts.e...')
+#5 [internal function]: ContactsController->edit('2')
+#6 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('edit', Array)
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('2')
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#17 {main} [] []
+[2014-08-14 21:04:17] log.ERROR: 500 - Undefined variable: turn @ /contacts/3/edit
+exception 'ErrorException' with message 'Undefined variable: turn' in /home/htdocs/turnos1/app/storage/views/73b245ca54f660743293079b655de464:9
+Stack trace:
+#0 /home/htdocs/turnos1/app/storage/views/73b245ca54f660743293079b655de464(9): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 9, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-14 22:38:53] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:39:07] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:39:40] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:40:03] log.ERROR: 404 - Exception @ /assets/js/jquery.min.map
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:41:30] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:48:34] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:53:15] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:53:41] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:58:51] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 22:59:13] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 23:01:48] log.ERROR: 404 - Exception @ /assets/css/img/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-14 23:13:32] log.ERROR: 500 - syntax error, unexpected '=', expecting ')' @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '=', expecting ')'' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:37
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-14 23:28:44] log.ERROR: 500 - syntax error, unexpected 'ta' (T_STRING) @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'ta' (T_STRING)' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:10
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

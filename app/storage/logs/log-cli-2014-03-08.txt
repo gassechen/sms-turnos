@@ -1,0 +1,42 @@
+[2014-03-08 19:13:53] log.ERROR: 500 - syntax error, unexpected 'case' (T_CASE), expecting '(' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'case' (T_CASE), expecting '('' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:50
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-08 19:16:08] log.ERROR: 500 - syntax error, unexpected 'case' (T_CASE), expecting '(' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'case' (T_CASE), expecting '('' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:50
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-08 19:16:50] log.ERROR: 500 - syntax error, unexpected 'default' (T_DEFAULT) @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'default' (T_DEFAULT)' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:65
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-08 19:17:31] log.ERROR: 500 - syntax error, unexpected ':' @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':'' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:65
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-08 19:18:15] log.ERROR: 500 - syntax error, unexpected end of file, expecting function (T_FUNCTION) @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION)' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:141
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-08 19:46:13] log.ERROR: 500 - syntax error, unexpected end of file, expecting function (T_FUNCTION) @ /
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION)' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:144
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-08 19:54:10] log.ERROR: 500 - Undefined property: stdClass::$name @ /
+exception 'ErrorException' with message 'Undefined property: stdClass::$name' in /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php:59
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/commands/UserGeneratorCommand.php(59): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/var/www/htdocs...', 59, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): UserGeneratorCommand->fire()
+#2 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(UserGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#8 {main} [] []

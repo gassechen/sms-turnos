@@ -1,0 +1,37 @@
+[2014-05-09 23:22:14] log.ERROR: 500 - Not enough arguments. @ /
+exception 'RuntimeException' with message 'Not enough arguments.' in /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Input/Input.php:76
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(239): Symfony\Component\Console\Input\Input->validate()
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Way\Generators\Commands\ViewGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /home/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2014-05-09 23:42:13] log.ERROR: 500 - Command "baset" is not defined.
+
+Did you mean this?
+    basset @ /
+exception 'InvalidArgumentException' with message 'Command "baset" is not defined.
+
+Did you mean this?
+    basset' in /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('baset')
+#1 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-05-09 23:42:34] log.ERROR: 500 - There are no commands defined in the "baset" namespace.
+
+Did you mean this?
+    basset @ /
+exception 'InvalidArgumentException' with message 'There are no commands defined in the "baset" namespace.
+
+Did you mean this?
+    basset' in /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php:523
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(561): Symfony\Component\Console\Application->findNamespace('baset')
+#1 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('baset:build')
+#2 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []

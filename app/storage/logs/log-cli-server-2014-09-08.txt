@@ -1,0 +1,36 @@
+[2014-09-08 08:34:56] log.ERROR: 500 - Exception @ /user/login
+exception 'Illuminate\Session\TokenMismatchException' in /home/htdocs/turnos/app/filters.php:99
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(262): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request), Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(185): Illuminate\Routing\Controllers\Controller->callFilter(Object(Illuminate\Routing\Route), 'csrf', Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(109): Illuminate\Routing\Controllers\Controller->callBeforeFilters(Object(Illuminate\Routing\Router), 'postLogin')
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#14 {main} [] []
+[2014-09-08 08:35:02] log.ERROR: 500 - Exception @ /user/login
+exception 'Illuminate\Session\TokenMismatchException' in /home/htdocs/turnos/app/filters.php:99
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(262): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request), Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(185): Illuminate\Routing\Controllers\Controller->callFilter(Object(Illuminate\Routing\Route), 'csrf', Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(109): Illuminate\Routing\Controllers\Controller->callBeforeFilters(Object(Illuminate\Routing\Router), 'postLogin')
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#14 {main} [] []

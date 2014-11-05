@@ -1,0 +1,820 @@
+[2014-09-03 10:56:21] log.ERROR: 500 - Undefined variable: messages @ /messages
+exception 'ErrorException' with message 'Undefined variable: messages' in /home/htdocs/turnos/app/controllers/MessagesControler.php:20
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(20): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 20, Array)
+#1 [internal function]: MessagesController->index()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 10:57:42] log.ERROR: 500 - Undefined variable: messages @ /messages
+exception 'ErrorException' with message 'Undefined variable: messages' in /home/htdocs/turnos/app/controllers/MessagesControler.php:20
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(20): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 20, Array)
+#1 [internal function]: MessagesController->index()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:02:45] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:03:11] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:04:27] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:05:49] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:10:02] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:14:34] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 11:14:57] log.ERROR: 500 - Undefined offset: 1 @ /messages/data
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/routes.php:170
+Stack trace:
+#0 /home/htdocs/turnos/app/routes.php(170): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 170, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#9 {main} [] []
+[2014-09-03 11:47:15] log.ERROR: 500 - Undefined variable: turn @ /contacts/3/edit
+exception 'ErrorException' with message 'Undefined variable: turn' in /home/htdocs/turnos/app/storage/views/661adf33a4bc11469fc71fc2c4367e3f:9
+Stack trace:
+#0 /home/htdocs/turnos/app/storage/views/661adf33a4bc11469fc71fc2c4367e3f(9): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 9, Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-09-03 11:50:38] log.ERROR: 500 - Undefined variable: contacts @ /contacts/3/edit
+exception 'ErrorException' with message 'Undefined variable: contacts' in /home/htdocs/turnos/app/storage/views/661adf33a4bc11469fc71fc2c4367e3f:19
+Stack trace:
+#0 /home/htdocs/turnos/app/storage/views/661adf33a4bc11469fc71fc2c4367e3f(19): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 19, Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-09-03 11:50:57] log.ERROR: 500 - Undefined variable: contacts @ /contacts/3/edit
+exception 'ErrorException' with message 'Undefined variable: contacts' in /home/htdocs/turnos/app/storage/views/661adf33a4bc11469fc71fc2c4367e3f:19
+Stack trace:
+#0 /home/htdocs/turnos/app/storage/views/661adf33a4bc11469fc71fc2c4367e3f(19): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 19, Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'edit', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'edit', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-09-03 11:55:01] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 11:55:01',
+  2 => 'gassechen@gail.com',
+  3 => '2123213213',
+  4 => 3,
+)) @ /contacts/3
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('3')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 11:55:01',
+  2 => 'gassechen@gail.com',
+  3 => '2123213213',
+  4 => 3,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('3')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 11:57:00] log.ERROR: 404 - Exception @ /contacts/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-09-03 11:57:38] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 11:57:38',
+  2 => 'gassechen@gail.com',
+  3 => '2123213213',
+  4 => 3,
+)) @ /contacts/3
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('3')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 11:57:38',
+  2 => 'gassechen@gail.com',
+  3 => '2123213213',
+  4 => 3,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('3')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 11:58:43] log.ERROR: 404 - Exception @ /contacts/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-09-03 12:02:00] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'dddd',
+  1 => '2014-09-03 12:02:00',
+  2 => 'gassechen@gail.com',
+  3 => '',
+  4 => 7,
+)) @ /contacts/7
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('7')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('7')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'dddd',
+  1 => '2014-09-03 12:02:00',
+  2 => 'gassechen@gail.com',
+  3 => '',
+  4 => 7,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('7')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('7')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 12:03:40] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'dddd',
+  1 => '2014-09-03 12:03:40',
+  2 => 'gassechen@gail.com',
+  3 => '',
+  4 => 7,
+)) @ /contacts/7
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('7')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('7')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'dddd',
+  1 => '2014-09-03 12:03:40',
+  2 => 'gassechen@gail.com',
+  3 => '',
+  4 => 7,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('7')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('7')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 12:04:58] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'llala',
+  1 => '2014-09-03 12:04:58',
+  2 => 'gassechen@gail.com',
+  3 => '2123213213',
+  4 => 3,
+)) @ /contacts/3
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('3')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'llala',
+  1 => '2014-09-03 12:04:58',
+  2 => 'gassechen@gail.com',
+  3 => '2123213213',
+  4 => 3,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('3')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('3')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 12:08:03] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 12:08:03',
+  2 => 'gassechen@gail.com',
+  3 => '1233213213',
+  4 => 11,
+)) @ /contacts/11
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('11')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('11')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 12:08:03',
+  2 => 'gassechen@gail.com',
+  3 => '1233213213',
+  4 => 11,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('11')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('11')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 12:23:00] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 12:23:00',
+  2 => 'gassechen@gail.com',
+  3 => '1233213213',
+  4 => 11,
+)) @ /contacts/11
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('11')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('11')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `ccategory` = ?, `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => 'cliente',
+  1 => '2014-09-03 12:23:00',
+  2 => 'gassechen@gail.com',
+  3 => '1233213213',
+  4 => 11,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('11')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('11')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 12:25:16] log.ERROR: 500 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => '2014-09-03 12:25:16',
+  1 => 'gassechen@gail.com',
+  2 => '1233213213',
+  3 => 11,
+)) @ /contacts/11
+exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list'' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `contact...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `contact...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#9 [internal function]: ContactsController->update('11')
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('11')
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#20 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'field list' (SQL: update `contacts` set `updated_at` = ?, `email` = ?, `numtel` = ? where `id` = ?) (Bindings: array (
+  0 => '2014-09-03 12:25:16',
+  1 => 'gassechen@gail.com',
+  2 => '1233213213',
+  3 => 11,
+))' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `contact...', Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `contact...', Array, Object(Closure))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `contact...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1459): Illuminate\Database\Connection->update('update `contact...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /home/htdocs/turnos/app/controllers/ContactsController.php(160): Illuminate\Database\Eloquent\Model->save()
+#8 [internal function]: ContactsController->update('11')
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('update', Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'update', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('11')
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#20 {main} [] []
+[2014-09-03 12:53:03] log.ERROR: 500 - Undefined variable: turns @ /messages/create
+exception 'ErrorException' with message 'Undefined variable: turns' in /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa:43
+Stack trace:
+#0 /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa(43): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 43, Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-09-03 12:53:42] log.ERROR: 500 - Undefined variable: messages @ /messages/create
+exception 'ErrorException' with message 'Undefined variable: messages' in /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa:43
+Stack trace:
+#0 /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa(43): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 43, Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-09-03 12:55:00] log.ERROR: 405 - Exception @ /turns/data
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-09-03 12:55:13] log.ERROR: 405 - Exception @ /turns/data
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-09-03 15:46:45] log.ERROR: 500 - Undefined offset: 1 @ /messages
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/controllers/MessagesControler.php:72
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(72): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 72, Array)
+#1 [internal function]: MessagesController->store()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('store', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'store', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-09-03 15:49:05] log.ERROR: 500 - Undefined offset: 1 @ /messages/data
+exception 'ErrorException' with message 'Undefined offset: 1' in /home/htdocs/turnos/app/routes.php:170
+Stack trace:
+#0 /home/htdocs/turnos/app/routes.php(170): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/home/htdocs/tu...', 170, Array)
+#1 [internal function]: {closure}()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#9 {main} [] []

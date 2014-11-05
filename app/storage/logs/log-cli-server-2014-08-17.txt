@@ -1,0 +1,31 @@
+[2014-08-17 16:35:45] log.ERROR: 500 - Class 'Select' not found @ /turns/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Select' not found' in /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-17 16:36:08] log.ERROR: 500 - Invalid argument supplied for foreach() @ /turns/create
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php:410
+Stack trace:
+#0 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(410): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', '/home/htdocs/tu...', 410, Array)
+#1 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(212): Illuminate\Html\FormBuilder->select('name', NULL, Array)
+#2 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(23): Illuminate\Support\Facades\Facade::__callStatic('select', Array)
+#3 /home/htdocs/turnos1/app/storage/views/57cc5e2bb3d32d88f0ebb4ae329c2380(23): Illuminate\Support\Facades\Form::select('name', NULL, Array)
+#4 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#5 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#6 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#7 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#8 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#9 /home/htdocs/turnos1/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#11 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#12 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#13 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /home/htdocs/turnos1/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /home/htdocs/turnos1/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 /home/htdocs/turnos1/server.php(19): require_once('/home/htdocs/tu...')
+#22 {main} [] []

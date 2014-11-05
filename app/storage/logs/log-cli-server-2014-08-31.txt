@@ -1,0 +1,293 @@
+[2014-08-31 13:41:25] log.ERROR: 404 - Exception @ /assets/js/jquery.min.map
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 14:28:44] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 14:28:44] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 21:29:12] log.ERROR: 500 - Exception @ /user/login
+exception 'Illuminate\Session\TokenMismatchException' in /home/htdocs/turnos/app/filters.php:99
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(262): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request), Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(185): Illuminate\Routing\Controllers\Controller->callFilter(Object(Illuminate\Routing\Route), 'csrf', Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(109): Illuminate\Routing\Controllers\Controller->callBeforeFilters(Object(Illuminate\Routing\Router), 'postLogin')
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#14 {main} [] []
+[2014-08-31 21:29:26] log.ERROR: 500 - Exception @ /user/login
+exception 'Illuminate\Session\TokenMismatchException' in /home/htdocs/turnos/app/filters.php:99
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(262): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request), Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(185): Illuminate\Routing\Controllers\Controller->callFilter(Object(Illuminate\Routing\Route), 'csrf', Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(109): Illuminate\Routing\Controllers\Controller->callBeforeFilters(Object(Illuminate\Routing\Router), 'postLogin')
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postLogin', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#14 {main} [] []
+[2014-08-31 21:29:53] log.ERROR: 404 - Exception @ /messages
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 21:30:28] log.ERROR: 404 - Exception @ /message
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 22:03:44] log.ERROR: 500 - Class MessagesController does not exist @ /messages
+exception 'ReflectionException' with message 'Class MessagesController does not exist' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php:308
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php(308): ReflectionClass->__construct('MessagesControl...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build('MessagesControl...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(478): Illuminate\Container\Container->make('MessagesControl...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(983): Illuminate\Foundation\Application->make('MessagesControl...')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#12 {main} [] []
+[2014-08-31 22:04:35] log.ERROR: 500 - Class MessagesController does not exist @ /messages
+exception 'ReflectionException' with message 'Class MessagesController does not exist' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php:308
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php(308): ReflectionClass->__construct('MessagesControl...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build('MessagesControl...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(478): Illuminate\Container\Container->make('MessagesControl...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(983): Illuminate\Foundation\Application->make('MessagesControl...')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#12 {main} [] []
+[2014-08-31 22:04:52] log.ERROR: 404 - Exception @ /message
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 22:04:58] log.ERROR: 500 - Class MessagesController does not exist @ /messages
+exception 'ReflectionException' with message 'Class MessagesController does not exist' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php:308
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php(308): ReflectionClass->__construct('MessagesControl...')
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build('MessagesControl...', Array)
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(478): Illuminate\Container\Container->make('MessagesControl...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(983): Illuminate\Foundation\Application->make('MessagesControl...')
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#12 {main} [] []
+[2014-08-31 22:10:00] log.ERROR: 500 - View [site.messages.index] not found. @ /messages
+exception 'InvalidArgumentException' with message 'View [site.messages.index] not found.' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('site.messages.i...', Array)
+#1 /home/htdocs/turnos/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('site.messages.i...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Robbo\Presenter\View\Environment->make('site.messages.i...')
+#3 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\View::make('site.messages.i...')
+#5 [internal function]: MessagesController->index()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#17 {main} [] []
+[2014-08-31 22:10:25] log.ERROR: 500 - View [site.messages.index] not found. @ /messages
+exception 'InvalidArgumentException' with message 'View [site.messages.index] not found.' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('site.messages.i...', Array)
+#1 /home/htdocs/turnos/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('site.messages.i...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Robbo\Presenter\View\Environment->make('site.messages.i...')
+#3 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\View::make('site.messages.i...')
+#5 [internal function]: MessagesController->index()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#17 {main} [] []
+[2014-08-31 22:10:29] log.ERROR: 500 - View [site.messages.index] not found. @ /messages
+exception 'InvalidArgumentException' with message 'View [site.messages.index] not found.' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('site.messages.i...', Array)
+#1 /home/htdocs/turnos/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('site.messages.i...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Robbo\Presenter\View\Environment->make('site.messages.i...')
+#3 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\View::make('site.messages.i...')
+#5 [internal function]: MessagesController->index()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#17 {main} [] []
+[2014-08-31 22:11:05] log.ERROR: 500 - View [site.messages.index] not found. @ /messages
+exception 'InvalidArgumentException' with message 'View [site.messages.index] not found.' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('site.messages.i...', Array)
+#1 /home/htdocs/turnos/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('site.messages.i...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Robbo\Presenter\View\Environment->make('site.messages.i...')
+#3 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /home/htdocs/turnos/app/controllers/MessagesControler.php(19): Illuminate\Support\Facades\View::make('site.messages.i...')
+#5 [internal function]: MessagesController->index()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('index', Array)
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'index', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#17 {main} [] []
+[2014-08-31 22:11:53] log.ERROR: 500 - syntax error, unexpected '=', expecting ')' @ /messages/create
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '=', expecting ')'' in /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa:84
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-08-31 22:14:47] log.ERROR: 500 - Undefined variable: contacts @ /messages/create
+exception 'ErrorException' with message 'Undefined variable: contacts' in /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa:33
+Stack trace:
+#0 /home/htdocs/turnos/app/storage/views/c8070a2ebff48be769d4461f3519f7fa(33): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 33, Array)
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/htdocs/tu...')
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/htdocs/tu...', Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/htdocs/tu...', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'create', Object(Robbo\Presenter\View\View))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#19 {main} [] []
+[2014-08-31 22:16:31] log.ERROR: 500 - Undefined variable: contacts @ /messages/create
+exception 'ErrorException' with message 'Undefined variable: contacts' in /home/htdocs/turnos/app/controllers/MessagesControler.php:32
+Stack trace:
+#0 /home/htdocs/turnos/app/controllers/MessagesControler.php(32): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/htdocs/tu...', 32, Array)
+#1 [internal function]: MessagesController->create()
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('create', Array)
+#4 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'create', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#13 {main} [] []
+[2014-08-31 22:26:45] log.ERROR: 405 - Exception @ /messages/data
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []
+[2014-08-31 22:57:41] log.ERROR: 404 - Exception @ /messages/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /home/htdocs/turnos/server.php(19): require_once('/home/htdocs/tu...')
+#6 {main} [] []

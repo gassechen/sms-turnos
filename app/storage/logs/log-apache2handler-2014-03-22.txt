@@ -1,0 +1,302 @@
+[2014-03-22 00:08:37] log.ERROR: 500 - Undefined variable: mesure @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: mesure' in /var/www/htdocs/cmi_tel/app/routes.php:164
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/routes.php(164): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 164, Array)
+#1 [internal function]: {closure}('2')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-22 00:10:56] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$equipos @ /totem/2
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$equipos' in /var/www/htdocs/cmi_tel/app/routes.php:170
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/routes.php(170): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/var/www/htdocs...', 170, Array)
+#1 [internal function]: {closure}('2')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-22 00:11:41] log.ERROR: 500 - Undefined property: Illuminate\Database\Eloquent\Collection::$capacidad @ /totem/2
+exception 'ErrorException' with message 'Undefined property: Illuminate\Database\Eloquent\Collection::$capacidad' in /var/www/htdocs/cmi_tel/app/routes.php:170
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/routes.php(170): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/var/www/htdocs...', 170, Array)
+#1 [internal function]: {closure}('2')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-22 00:29:52] log.ERROR: 404 - Exception @ /totem/2
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-22 00:33:51] log.ERROR: 500 - syntax error, unexpected '\' (T_NS_SEPARATOR) @ /totemlist
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '\' (T_NS_SEPARATOR)' in /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-22 00:42:09] log.ERROR: 404 - Exception @ /totem//2/200.71
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-22 00:42:51] log.ERROR: 404 - Exception @ /totem/2/200.71
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-22 00:55:54] log.ERROR: 500 - Unable to generate a URL for the named route "totem" as such route does not exist. @ /totemlist
+exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "totem" as such route does not exist.' in /var/www/htdocs/cmi_tel/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('totem', Array, true)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\UrlGenerator->route('totem', Array)
+#2 /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709(78): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#3 /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709(78): Illuminate\Support\Facades\URL::route('totem', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#8 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#9 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-03-22 00:57:56] log.ERROR: 500 - Unable to generate a URL for the named route "totem" as such route does not exist. @ /totemlist
+exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "totem" as such route does not exist.' in /var/www/htdocs/cmi_tel/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('totem', Array, true)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\UrlGenerator->route('totem', Array)
+#2 /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709(78): Illuminate\Support\Facades\Facade::__callStatic('route', Array)
+#3 /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709(78): Illuminate\Support\Facades\URL::route('totem', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#8 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#9 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-03-22 00:58:24] log.ERROR: 500 - Undefined variable: capcidad @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: capcidad' in /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a:25
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 25, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-22 00:59:19] log.ERROR: 500 - Undefined variable: capcidad @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: capcidad' in /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a:25
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 25, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-22 00:59:54] log.ERROR: 500 - syntax error, unexpected '}' @ /totem/2
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}'' in /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a:25
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-22 01:03:22] log.ERROR: 500 - Undefined variable: nivel @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: nivel' in /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a:88
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/storage/views/ab57c8696719513f0fbb24012d61365a(88): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 88, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-03-22 01:04:48] log.ERROR: 500 - Undefined variable: nivel @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: nivel' in /var/www/htdocs/cmi_tel/app/routes.php:174
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/routes.php(174): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 174, Array)
+#1 [internal function]: {closure}('2')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-22 01:05:48] log.ERROR: 500 - Undefined variable: nivel @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: nivel' in /var/www/htdocs/cmi_tel/app/routes.php:174
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/routes.php(174): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 174, Array)
+#1 [internal function]: {closure}('2')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-22 01:06:16] log.ERROR: 500 - Undefined variable: levelqmco @ /totem/2
+exception 'ErrorException' with message 'Undefined variable: levelqmco' in /var/www/htdocs/cmi_tel/app/routes.php:174
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/app/routes.php(174): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/var/www/htdocs...', 174, Array)
+#1 [internal function]: {closure}('2')
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-22 17:41:57] log.ERROR: 500 - file_put_contents(/var/www/htdocs/cmi_tel/public/assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css): failed to open stream: Permission denied @ /totemlist
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/cmi_tel/public/assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css): failed to open stream: Permission denied' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', 'article,?aside,...')
+#2 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Builder/Builder.php(154): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', 'article,?aside,...')
+#3 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(218): Basset\Builder\Builder->buildAsDevelopment(Object(Basset\Collection), 'stylesheets')
+#4 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(133): Basset\Server->tryDevelopmentBuild(Object(Basset\Collection), 'stylesheets')
+#5 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(96): Basset\Server->serveDevelopmentCollection(Object(Basset\Collection), 'stylesheets', NULL)
+#6 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(41): Basset\Server->serve('admin', 'stylesheets', NULL)
+#7 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/helpers.php(57): Basset\Server->collection('admin.css', NULL)
+#8 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Facade.php(21): basset_assets(Array)
+#9 /var/www/htdocs/cmi_tel/app/storage/views/9141df6795903ee5c4d99cdabf594f86(47): Basset\Facade::show('admin.css')
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#14 /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709(88): Illuminate\View\View->render()
+#15 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#16 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#17 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#18 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#19 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#20 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#21 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#22 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#23 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-03-22 20:29:36] log.ERROR: 500 - file_put_contents(/var/www/htdocs/cmi_tel/public/assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css): failed to open stream: Permission denied @ /totemlist
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/cmi_tel/public/assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css): failed to open stream: Permission denied' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', 'article,?aside,...')
+#2 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Builder/Builder.php(154): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', 'article,?aside,...')
+#3 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(218): Basset\Builder\Builder->buildAsDevelopment(Object(Basset\Collection), 'stylesheets')
+#4 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(133): Basset\Server->tryDevelopmentBuild(Object(Basset\Collection), 'stylesheets')
+#5 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(96): Basset\Server->serveDevelopmentCollection(Object(Basset\Collection), 'stylesheets', NULL)
+#6 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(41): Basset\Server->serve('admin', 'stylesheets', NULL)
+#7 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/helpers.php(57): Basset\Server->collection('admin.css', NULL)
+#8 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Facade.php(21): basset_assets(Array)
+#9 /var/www/htdocs/cmi_tel/app/storage/views/9141df6795903ee5c4d99cdabf594f86(47): Basset\Facade::show('admin.css')
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#14 /var/www/htdocs/cmi_tel/app/storage/views/437147e838b30ce78b8da44c5cfbb709(88): Illuminate\View\View->render()
+#15 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#16 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#17 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#18 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#19 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#20 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#21 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#22 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#23 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-03-22 20:29:41] log.ERROR: 500 - file_put_contents(/var/www/htdocs/cmi_tel/public/assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css): failed to open stream: Permission denied @ /panel
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/cmi_tel/public/assets/compiled/admin/assets/css/less/master-38d82f95a0dd2145c6b09aaf07e5752d.css): failed to open stream: Permission denied' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', 'article,?aside,...')
+#2 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Builder/Builder.php(154): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', 'article,?aside,...')
+#3 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(218): Basset\Builder\Builder->buildAsDevelopment(Object(Basset\Collection), 'stylesheets')
+#4 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(133): Basset\Server->tryDevelopmentBuild(Object(Basset\Collection), 'stylesheets')
+#5 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(96): Basset\Server->serveDevelopmentCollection(Object(Basset\Collection), 'stylesheets', NULL)
+#6 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Server.php(41): Basset\Server->serve('admin', 'stylesheets', NULL)
+#7 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/helpers.php(57): Basset\Server->collection('admin.css', NULL)
+#8 /var/www/htdocs/cmi_tel/vendor/jasonlewis/basset/src/Basset/Facade.php(21): basset_assets(Array)
+#9 /var/www/htdocs/cmi_tel/app/storage/views/9141df6795903ee5c4d99cdabf594f86(47): Basset\Facade::show('admin.css')
+#10 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#11 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#12 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#13 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#14 /var/www/htdocs/cmi_tel/app/storage/views/cf5c8284e4fa4ce9eaa8f3d24cd37425(7): Illuminate\View\View->render()
+#15 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/var/www/htdocs...')
+#16 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/htdocs...', Array)
+#17 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#18 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#19 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#20 /var/www/htdocs/cmi_tel/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#21 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#22 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#23 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#24 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#25 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#26 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#27 {main} [] []
+[2014-03-22 23:28:45] log.ERROR: 404 - Exception @ /HNAP1/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /var/www/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/htdocs/cmi_tel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

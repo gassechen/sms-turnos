@@ -1,0 +1,90 @@
+[2014-09-08 23:39:00] log.ERROR: 500 - file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied @ /
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', '??<?php /*  Web...')
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(66): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', '??<?php /*  Web...')
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(40): Illuminate\View\Compilers\BladeCompiler->compile('/var/www/htdocs...')
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#6 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /var/www/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-09-08 23:39:06] log.ERROR: 500 - file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied @ /
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', '??<?php /*  Web...')
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(66): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', '??<?php /*  Web...')
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(40): Illuminate\View\Compilers\BladeCompiler->compile('/var/www/htdocs...')
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#6 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /var/www/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-09-08 23:39:29] log.ERROR: 500 - file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied @ /
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', '??<?php /*  Web...')
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(66): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', '??<?php /*  Web...')
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(40): Illuminate\View\Compilers\BladeCompiler->compile('/var/www/htdocs...')
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#6 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /var/www/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-09-08 23:39:33] log.ERROR: 500 - file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied @ /
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', '??<?php /*  Web...')
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(66): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', '??<?php /*  Web...')
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(40): Illuminate\View\Compilers\BladeCompiler->compile('/var/www/htdocs...')
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#6 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /var/www/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-09-08 23:39:36] log.ERROR: 500 - file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied @ /
+exception 'ErrorException' with message 'file_put_contents(/var/www/htdocs/turnos/app/storage/views/8ed56185579963b1f6121b829300478c): failed to open stream: Permission denied' in /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:78
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', '/var/www/htdocs...', 78, Array)
+#1 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(78): file_put_contents('/var/www/htdocs...', '??<?php /*  Web...')
+#2 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(66): Illuminate\Filesystem\Filesystem->put('/var/www/htdocs...', '??<?php /*  Web...')
+#3 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(40): Illuminate\View\Compilers\BladeCompiler->compile('/var/www/htdocs...')
+#4 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/var/www/htdocs...', Array)
+#5 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#6 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /var/www/htdocs/turnos/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#8 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#9 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#10 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/htdocs/turnos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /var/www/htdocs/turnos/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []

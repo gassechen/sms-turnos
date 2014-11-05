@@ -1,0 +1,75 @@
+[2014-05-13 19:52:42] log.ERROR: 500 - Class AdminEquipsController does not exist @ /
+exception 'ReflectionException' with message 'Class AdminEquipsController does not exist' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Inspector.php:29
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Inspector.php(29): ReflectionClass->__construct('AdminEquipsCont...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(247): Illuminate\Routing\Controllers\Inspector->getRoutable('AdminEquipsCont...', 'equips')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\Router->controller('equips', 'AdminEquipsCont...')
+#3 /home/htdocs/cmi_tel/app/routes.php(82): Illuminate\Support\Facades\Facade::__callStatic('controller', Array)
+#4 /home/htdocs/cmi_tel/app/routes.php(82): Illuminate\Support\Facades\Route::controller('equips', 'AdminEquipsCont...')
+#5 [internal function]: {closure}()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(650): call_user_func(Object(Closure))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\Router->group(Array, Object(Closure))
+#8 /home/htdocs/cmi_tel/app/routes.php(92): Illuminate\Support\Facades\Facade::__callStatic('group', Array)
+#9 /home/htdocs/cmi_tel/app/routes.php(92): Illuminate\Support\Facades\Route::group(Array, Object(Closure))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/start.php(253): require('/home/htdocs/cm...')
+#11 /home/htdocs/cmi_tel/bootstrap/start.php(61): require('/home/htdocs/cm...')
+#12 /home/htdocs/cmi_tel/artisan(30): require_once('/home/htdocs/cm...')
+#13 {main} [] []
+[2014-05-13 19:52:58] log.ERROR: 500 - Class AdminEquipsController does not exist @ /
+exception 'ReflectionException' with message 'Class AdminEquipsController does not exist' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Inspector.php:29
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Inspector.php(29): ReflectionClass->__construct('AdminEquipsCont...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(247): Illuminate\Routing\Controllers\Inspector->getRoutable('AdminEquipsCont...', 'equips')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\Router->controller('equips', 'AdminEquipsCont...')
+#3 /home/htdocs/cmi_tel/app/routes.php(82): Illuminate\Support\Facades\Facade::__callStatic('controller', Array)
+#4 /home/htdocs/cmi_tel/app/routes.php(82): Illuminate\Support\Facades\Route::controller('equips', 'AdminEquipsCont...')
+#5 [internal function]: {closure}()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(650): call_user_func(Object(Closure))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\Router->group(Array, Object(Closure))
+#8 /home/htdocs/cmi_tel/app/routes.php(92): Illuminate\Support\Facades\Facade::__callStatic('group', Array)
+#9 /home/htdocs/cmi_tel/app/routes.php(92): Illuminate\Support\Facades\Route::group(Array, Object(Closure))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/start.php(253): require('/home/htdocs/cm...')
+#11 /home/htdocs/cmi_tel/bootstrap/start.php(61): require('/home/htdocs/cm...')
+#12 /home/htdocs/cmi_tel/artisan(30): require_once('/home/htdocs/cm...')
+#13 {main} [] []
+[2014-05-13 19:53:51] log.ERROR: 500 - Class AdminEquipsController does not exist @ /
+exception 'ReflectionException' with message 'Class AdminEquipsController does not exist' in /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Inspector.php:29
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Inspector.php(29): ReflectionClass->__construct('AdminEquipsCont...')
+#1 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(247): Illuminate\Routing\Controllers\Inspector->getRoutable('AdminEquipsCont...', 'equips')
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\Router->controller('equips', 'AdminEquipsCont...')
+#3 /home/htdocs/cmi_tel/app/routes.php(82): Illuminate\Support\Facades\Facade::__callStatic('controller', Array)
+#4 /home/htdocs/cmi_tel/app/routes.php(82): Illuminate\Support\Facades\Route::controller('equips', 'AdminEquipsCont...')
+#5 [internal function]: {closure}()
+#6 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(650): call_user_func(Object(Closure))
+#7 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Routing\Router->group(Array, Object(Closure))
+#8 /home/htdocs/cmi_tel/app/routes.php(92): Illuminate\Support\Facades\Facade::__callStatic('group', Array)
+#9 /home/htdocs/cmi_tel/app/routes.php(92): Illuminate\Support\Facades\Route::group(Array, Object(Closure))
+#10 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Foundation/start.php(253): require('/home/htdocs/cm...')
+#11 /home/htdocs/cmi_tel/bootstrap/start.php(61): require('/home/htdocs/cm...')
+#12 /home/htdocs/cmi_tel/artisan(30): require_once('/home/htdocs/cm...')
+#13 {main} [] []
+[2014-05-13 21:48:57] log.ERROR: 500 - Command "generate:resourse" is not defined.
+
+Did you mean this?
+    generate:resource @ /
+exception 'InvalidArgumentException' with message 'Command "generate:resourse" is not defined.
+
+Did you mean this?
+    generate:resource' in /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('generate:resour...')
+#1 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-05-13 21:49:16] log.ERROR: 500 - You must specify the fields option. @ /
+exception 'Way\Generators\Commands\MissingFieldsException' with message 'You must specify the fields option.' in /home/htdocs/cmi_tel/vendor/way/generators/src/Way/Generators/Commands/ResourceGeneratorCommand.php:70
+Stack trace:
+#0 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Way\Generators\Commands\ResourceGeneratorCommand->fire()
+#1 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/htdocs/cmi_tel/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(897): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Way\Generators\Commands\ResourceGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /home/htdocs/cmi_tel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /home/htdocs/cmi_tel/artisan(59): Symfony\Component\Console\Application->run()
+#7 {main} [] []
